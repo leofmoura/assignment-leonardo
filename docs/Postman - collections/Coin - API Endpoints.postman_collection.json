@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "cd02c23e-38be-4635-96bc-03ebfc882a34",
+		"name": "Coin - API Endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "744304"
+	},
+	"item": [
+		{
+			"name": "External API",
+			"item": [
+				{
+					"name": "Kucoin - Primary - Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.kucoin.com/_api/discover-front/spl/list?lang=en_US&typeList=HOME_LIST,LIST",
+							"protocol": "https",
+							"host": [
+								"www",
+								"kucoin",
+								"com"
+							],
+							"path": [
+								"_api",
+								"discover-front",
+								"spl",
+								"list"
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en_US"
+								},
+								{
+									"key": "typeList",
+									"value": "HOME_LIST,LIST"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Kucoin - Primary - Coins by category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://www.kucoin.com/_api/discover-front/spl?lang=en_US&tagId=6225ad8d491ffe87c4e42489",
+							"protocol": "https",
+							"host": [
+								"www",
+								"kucoin",
+								"com"
+							],
+							"path": [
+								"_api",
+								"discover-front",
+								"spl"
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en_US"
+								},
+								{
+									"key": "tagId",
+									"value": "6225ad8d491ffe87c4e42489"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Gateio - Secondary - Coin by Id",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "curr_type",
+									"value": "BTC",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://www.gate.io/apiwap/getCoinInfo",
+							"protocol": "https",
+							"host": [
+								"www",
+								"gate",
+								"io"
+							],
+							"path": [
+								"apiwap",
+								"getCoinInfo"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get Coins By Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5206/categories/{{categoryId}}/coins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5206",
+					"path": [
+						"categories",
+						"{{categoryId}}",
+						"coins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5206/categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5206",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Coin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5206/coins/{{symbol}}/{{provider}}",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5206",
+					"path": [
+						"coins",
+						"{{symbol}}",
+						"{{provider}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "categoryId",
+			"value": "6225ad8d491ffe87c4e42489"
+		},
+		{
+			"key": "symbol",
+			"value": "BTC",
+			"type": "string"
+		},
+		{
+			"key": "provider",
+			"value": "primary",
+			"type": "string"
+		}
+	]
+}

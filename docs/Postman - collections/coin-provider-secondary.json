@@ -1,0 +1,1526 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "total": "10912",
+    "per_page": "30",
+    "current_page": "1",
+    "page_num": 364,
+    "data": [
+      {
+        "symbol": "btc",
+        "name": "Bitcoin",
+        "name_en": "Bitcoin",
+        "name_cn": "比特币",
+        "pair": "btc_usdt",
+        "rate": "30334.1",
+        "rate_fiat": "$30334.1",
+        "trend": "up",
+        "rate_percent": "1.20%",
+        "curr_a": "btc",
+        "curr_b": "usdt",
+        "marketcap": "586,826,000,000",
+        "marketcap_format": "586.8B",
+        "marketcap_fiat": "$586.8B",
+        "high": "30539.9",
+        "low": "29868.6",
+        "high_fiat": "$30539.9",
+        "low_fiat": "$29868.6",
+        "gate_trade": "1",
+        "volume": "16220200000",
+        "volume_format": "16.2B",
+        "volume_fiat": "$16.2B",
+        "icon_url": "https://image.gatedataimg.com/BTC.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=Kq33GB4hMjhu37KVc0ihb2ykjL8%3D&Expires=1691294267",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/bitcoin-btc",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/BTC_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/BTC_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/bitcoin-btc"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/bitcoin-btc"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/bitcoin-btc"
+          }
+        ]
+      },
+      {
+        "symbol": "eth",
+        "name": "Ethereum",
+        "name_en": "Ethereum",
+        "name_cn": "以太坊",
+        "pair": "eth_usdt",
+        "rate": "2010.8",
+        "rate_fiat": "$2010.8",
+        "trend": "up",
+        "rate_percent": "4.70%",
+        "curr_a": "eth",
+        "curr_b": "usdt",
+        "marketcap": "242,096,000,000",
+        "marketcap_format": "242.1B",
+        "marketcap_fiat": "$242.1B",
+        "high": "2019.33",
+        "low": "1902.5",
+        "high_fiat": "$2019.33",
+        "low_fiat": "$1902.5",
+        "gate_trade": "1",
+        "volume": "14364600000",
+        "volume_format": "14.4B",
+        "volume_fiat": "$14.4B",
+        "icon_url": "https://image.gatedataimg.com/ETH.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=Ygyr%2BCaZW7IrJME6q%2F6gvnVztHM%3D&Expires=1691294267",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/ethereum-eth",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/ETH_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/ETH_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/ethereum-eth"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/ethereum-eth"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/ethereum-eth"
+          }
+        ]
+      },
+      {
+        "symbol": "usdt",
+        "name": "Tether",
+        "name_en": "Tether",
+        "name_cn": "泰达币",
+        "pair": "usdt_usd",
+        "rate": "1.00085",
+        "rate_fiat": "$1.00085",
+        "trend": "up",
+        "rate_percent": "0.00%",
+        "curr_a": "usdt",
+        "curr_b": "usd",
+        "marketcap": "80,664,700,000",
+        "marketcap_format": "80.7B",
+        "marketcap_fiat": "$80.7B",
+        "high": "1",
+        "low": "0.999834",
+        "high_fiat": "$1",
+        "low_fiat": "$0.999834",
+        "gate_trade": 1,
+        "volume": "29210900000",
+        "volume_format": "29.2B",
+        "volume_fiat": "$29.2B",
+        "icon_url": "https://image.gatedataimg.com/USDT.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=TKVP4GDq7sycj%2FI7Xr%2FgvYXLEgo%3D&Expires=1691294273",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/tether-usdt",
+        "trade_market": [],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/tether-usdt"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/tether-usdt"
+          }
+        ]
+      },
+      {
+        "symbol": "bnb",
+        "name": "BNB",
+        "name_en": "BNB",
+        "name_cn": "币安币",
+        "pair": "bnb_usdt",
+        "rate": "324.619",
+        "rate_fiat": "$324.619",
+        "trend": "up",
+        "rate_percent": "1.30%",
+        "curr_a": "bnb",
+        "curr_b": "usdt",
+        "marketcap": "51,278,100,000",
+        "marketcap_format": "51.3B",
+        "marketcap_fiat": "$51.3B",
+        "high": "325.21",
+        "low": "318.21",
+        "high_fiat": "$325.21",
+        "low_fiat": "$318.21",
+        "gate_trade": "1",
+        "volume": "657218000",
+        "volume_format": "657.2M",
+        "volume_fiat": "$657.2M",
+        "icon_url": "https://image.gatedataimg.com/BNB.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=9256tSvnx%2F1F8CfKzrWt5xPeaoA%3D&Expires=1691294269",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/bnb-bnb",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/BNB_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/BNB_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/bnb-bnb"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/bnb-bnb"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/bnb-bnb"
+          }
+        ]
+      },
+      {
+        "symbol": "usdc",
+        "name": "USD Coin",
+        "name_en": "USD Coin",
+        "name_cn": "USD Coin",
+        "pair": "usdt_usd",
+        "rate": "0.999669",
+        "rate_fiat": "$0.999669",
+        "trend": "down",
+        "rate_percent": "-0.20%",
+        "curr_a": "usdc",
+        "curr_b": "usdt_usd",
+        "marketcap": "31,963,600,000",
+        "marketcap_format": "32.0B",
+        "marketcap_fiat": "$32.0B",
+        "high": "1",
+        "low": "0.998253",
+        "high_fiat": "$1",
+        "low_fiat": "$0.998253",
+        "gate_trade": 1,
+        "volume": "4237910000",
+        "volume_format": "4.2B",
+        "volume_fiat": "$4.2B",
+        "icon_url": "https://image.gatedataimg.com/USDC.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=984lqGS8PWZz1bpmzo9JPEk0AwM%3D&Expires=1691294274",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/usd-coin-usdc",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/USDC_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/USDC_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/usd-coin-usdc"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/usd-coin-usdc"
+          }
+        ]
+      },
+      {
+        "symbol": "xrp",
+        "name": "XRP",
+        "name_en": "XRP",
+        "name_cn": "瑞波币",
+        "pair": "xrp_usdt",
+        "rate": "0.513032",
+        "rate_fiat": "$0.513032",
+        "trend": "up",
+        "rate_percent": "1.40%",
+        "curr_a": "xrp",
+        "curr_b": "usdt",
+        "marketcap": "26,558,400,000",
+        "marketcap_format": "26.6B",
+        "marketcap_fiat": "$26.6B",
+        "high": "0.515929",
+        "low": "0.502413",
+        "high_fiat": "$0.515929",
+        "low_fiat": "$0.502413",
+        "gate_trade": "1",
+        "volume": "1090970000",
+        "volume_format": "1.1B",
+        "volume_fiat": "$1.1B",
+        "icon_url": "https://image.gatedataimg.com/XRP.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=7UpR4T5PMzmGIf%2BsGYm%2BFjUhRTQ%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/xrp-xrp",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/XRP_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/XRP_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/xrp-xrp"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/xrp-xrp"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/xrp-xrp"
+          }
+        ]
+      },
+      {
+        "symbol": "ada",
+        "name": "Cardano",
+        "name_en": "Cardano",
+        "name_cn": "艾达币",
+        "pair": "ada_usdt",
+        "rate": "0.425831",
+        "rate_fiat": "$0.425831",
+        "trend": "up",
+        "rate_percent": "5.20%",
+        "curr_a": "ada",
+        "curr_b": "usdt",
+        "marketcap": "14,935,700,000",
+        "marketcap_format": "14.9B",
+        "marketcap_fiat": "$14.9B",
+        "high": "0.425051",
+        "low": "0.401963",
+        "high_fiat": "$0.425051",
+        "low_fiat": "$0.401963",
+        "gate_trade": "1",
+        "volume": "501714000",
+        "volume_format": "501.7M",
+        "volume_fiat": "$501.7M",
+        "icon_url": "https://image.gatedataimg.com/ADA.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=PVitG%2FRMDTFUeKoMHMSMO%2BysVEw%3D&Expires=1691294271",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/cardano-ada",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/ADA_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/ADA_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/cardano-ada"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/cardano-ada"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/cardano-ada"
+          }
+        ]
+      },
+      {
+        "symbol": "doge",
+        "name": "Dogecoin",
+        "name_en": "Dogecoin",
+        "name_cn": "狗币",
+        "pair": "doge_usdt",
+        "rate": "0.0871556",
+        "rate_fiat": "$0.0871556",
+        "trend": "up",
+        "rate_percent": "5.00%",
+        "curr_a": "doge",
+        "curr_b": "usdt",
+        "marketcap": "12,108,800,000",
+        "marketcap_format": "12.1B",
+        "marketcap_fiat": "$12.1B",
+        "high": "0.0884388",
+        "low": "0.0826089",
+        "high_fiat": "$0.0884388",
+        "low_fiat": "$0.0826089",
+        "gate_trade": "1",
+        "volume": "1101290000",
+        "volume_format": "1.1B",
+        "volume_fiat": "$1.1B",
+        "icon_url": "https://image.gatedataimg.com/DOGE.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=hQcYzFIp739xgPw9V3jgC7OGndg%3D&Expires=1691294269",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/dogecoin-doge",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/DOGE_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/DOGE_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/dogecoin-doge"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/dogecoin-doge"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/dogecoin-doge"
+          }
+        ]
+      },
+      {
+        "symbol": "steth",
+        "name": "Lido Staked Ether",
+        "name_en": "Lido Staked Ether",
+        "name_cn": "Lido Staked Ether",
+        "pair": "steth_usdt",
+        "rate": "2006.16",
+        "rate_fiat": "$2006.16",
+        "trend": "up",
+        "rate_percent": "4.70%",
+        "curr_a": "steth",
+        "curr_b": "usdt",
+        "marketcap": "11,933,900,000",
+        "marketcap_format": "11.9B",
+        "marketcap_fiat": "$11.9B",
+        "high": "2024.25",
+        "low": "1895.18",
+        "high_fiat": "$2024.25",
+        "low_fiat": "$1895.18",
+        "gate_trade": "1",
+        "volume": "72444000",
+        "volume_format": "72.4M",
+        "volume_fiat": "$72.4M",
+        "icon_url": "https://image.gatedataimg.com/STETH.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=QpNzF2jjgzP1FAr4i%2FOzYhPVes4%3D&Expires=1691294305",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/lido-staked-ether-steth",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/STETH_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/lido-staked-ether-steth"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/lido-staked-ether-steth"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/lido-staked-ether-steth"
+          }
+        ]
+      },
+      {
+        "symbol": "matic",
+        "name": "Polygon",
+        "name_en": "Polygon",
+        "name_cn": "Polygon",
+        "pair": "matic_usdt",
+        "rate": "1.13471",
+        "rate_fiat": "$1.13471",
+        "trend": "up",
+        "rate_percent": "2.80%",
+        "curr_a": "matic",
+        "curr_b": "usdt",
+        "marketcap": "10,470,700,000",
+        "marketcap_format": "10.5B",
+        "marketcap_fiat": "$10.5B",
+        "high": "1.14",
+        "low": "1.1",
+        "high_fiat": "$1.14",
+        "low_fiat": "$1.1",
+        "gate_trade": "1",
+        "volume": "296964000",
+        "volume_format": "297.0M",
+        "volume_fiat": "$297.0M",
+        "icon_url": "https://image.gatedataimg.com/MATIC.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=f0T7MCuHzBcCBSY6i1opUK4EMtA%3D&Expires=1691294273",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/polygon-matic",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/MATIC_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/MATIC_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/polygon-matic"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/polygon-matic"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/polygon-matic"
+          }
+        ]
+      },
+      {
+        "symbol": "sol",
+        "name": "Solana",
+        "name_en": "Solana",
+        "name_cn": "Solana",
+        "pair": "sol_usdt",
+        "rate": "24.6665",
+        "rate_fiat": "$24.6665",
+        "trend": "up",
+        "rate_percent": "2.60%",
+        "curr_a": "sol",
+        "curr_b": "usdt",
+        "marketcap": "9,659,410,000",
+        "marketcap_format": "9.7B",
+        "marketcap_fiat": "$9.7B",
+        "high": "25.13",
+        "low": "23.71",
+        "high_fiat": "$25.13",
+        "low_fiat": "$23.71",
+        "gate_trade": "1",
+        "volume": "686737000",
+        "volume_format": "686.7M",
+        "volume_fiat": "$686.7M",
+        "icon_url": "https://image.gatedataimg.com/SOL.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=QssQTjqgb9aQjAOL0bOPQtdWXHY%3D&Expires=1691294270",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/solana-sol",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/SOL_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/SOL_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/solana-sol"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/solana-sol"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/solana-sol"
+          }
+        ]
+      },
+      {
+        "symbol": "dot",
+        "name": "Polkadot",
+        "name_en": "Polkadot",
+        "name_cn": "Polkadot",
+        "pair": "dot_usdt",
+        "rate": "6.57816",
+        "rate_fiat": "$6.57816",
+        "trend": "up",
+        "rate_percent": "2.70%",
+        "curr_a": "dot",
+        "curr_b": "usdt",
+        "marketcap": "8,031,350,000",
+        "marketcap_format": "8.0B",
+        "marketcap_fiat": "$8.0B",
+        "high": "6.62",
+        "low": "6.36",
+        "high_fiat": "$6.62",
+        "low_fiat": "$6.36",
+        "gate_trade": "1",
+        "volume": "201715000",
+        "volume_format": "201.7M",
+        "volume_fiat": "$201.7M",
+        "icon_url": "https://image.gatedataimg.com/DOT.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=CS3SKdAAdyauC930AurS%2FMlwaps%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/polkadot-dot",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/DOT_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/DOT_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/polkadot-dot"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/polkadot-dot"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/polkadot-dot"
+          }
+        ]
+      },
+      {
+        "symbol": "ltc",
+        "name": "Litecoin",
+        "name_en": "Litecoin",
+        "name_cn": "莱特币",
+        "pair": "ltc_usdt",
+        "rate": "94.1671",
+        "rate_fiat": "$94.1671",
+        "trend": "up",
+        "rate_percent": "1.90%",
+        "curr_a": "ltc",
+        "curr_b": "usdt",
+        "marketcap": "6,851,540,000",
+        "marketcap_format": "6.9B",
+        "marketcap_fiat": "$6.9B",
+        "high": "94.58",
+        "low": "91.89",
+        "high_fiat": "$94.58",
+        "low_fiat": "$91.89",
+        "gate_trade": "1",
+        "volume": "505155000",
+        "volume_format": "505.2M",
+        "volume_fiat": "$505.2M",
+        "icon_url": "https://image.gatedataimg.com/LTC.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=zGwY1sFEwqZUDHf4%2FS95YALYoHg%3D&Expires=1691294267",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/litecoin-ltc",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/LTC_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/LTC_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/litecoin-ltc"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/litecoin-ltc"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/litecoin-ltc"
+          }
+        ]
+      },
+      {
+        "symbol": "busd",
+        "name": "Binance USD",
+        "name_en": "Binance USD",
+        "name_cn": "Binance USD",
+        "pair": "busd_usdt",
+        "rate": "1.00085",
+        "rate_fiat": "$1.00085",
+        "trend": "down",
+        "rate_percent": "-0.10%",
+        "curr_a": "busd",
+        "curr_b": "usdt",
+        "marketcap": "6,721,730,000",
+        "marketcap_format": "6.7B",
+        "marketcap_fiat": "$6.7B",
+        "high": "1.01",
+        "low": "0.99794",
+        "high_fiat": "$1.01",
+        "low_fiat": "$0.99794",
+        "gate_trade": null,
+        "volume": "3415690000",
+        "volume_format": "3.4B",
+        "volume_fiat": "$3.4B",
+        "icon_url": "https://image.gatedataimg.com/BUSD.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=vR3s%2FaeUw8iui2r%2B93WVVoH2JS4%3D&Expires=1691294294",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/binance-usd-busd",
+        "trade_market": [],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/binance-usd-busd"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/binance-usd-busd"
+          }
+        ]
+      },
+      {
+        "symbol": "shib",
+        "name": "Shiba Inu",
+        "name_en": "Shiba Inu",
+        "name_cn": "Shiba Inu",
+        "pair": "shib_usdt",
+        "rate": "0.0000111364",
+        "rate_fiat": "$0.0000111364",
+        "trend": "up",
+        "rate_percent": "1.50%",
+        "curr_a": "shib",
+        "curr_b": "usdt",
+        "marketcap": "6,564,130,000",
+        "marketcap_format": "6.6B",
+        "marketcap_fiat": "$6.6B",
+        "high": "0.0000112182",
+        "low": "0.000010925",
+        "high_fiat": "$0.0000112182",
+        "low_fiat": "$0.000010925",
+        "gate_trade": "1",
+        "volume": "195450000",
+        "volume_format": "195.5M",
+        "volume_fiat": "$195.5M",
+        "icon_url": "https://image.gatedataimg.com/SHIB.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=3VE7ZTOPiBRxhKILbR%2FHVGhNgJE%3D&Expires=1691294283",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/shiba-inu-shib",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/SHIB_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/SHIB_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/shiba-inu-shib"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/shiba-inu-shib"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/shiba-inu-shib"
+          }
+        ]
+      },
+      {
+        "symbol": "avax",
+        "name": "Avalanche",
+        "name_en": "Avalanche",
+        "name_cn": "Avalanche",
+        "pair": "avax_usdt",
+        "rate": "18.875",
+        "rate_fiat": "$18.875",
+        "trend": "up",
+        "rate_percent": "3.70%",
+        "curr_a": "avax",
+        "curr_b": "usdt",
+        "marketcap": "6,157,560,000",
+        "marketcap_format": "6.2B",
+        "marketcap_fiat": "$6.2B",
+        "high": "19.03",
+        "low": "18.08",
+        "high_fiat": "$19.03",
+        "low_fiat": "$18.08",
+        "gate_trade": "1",
+        "volume": "295522000",
+        "volume_format": "295.5M",
+        "volume_fiat": "$295.5M",
+        "icon_url": "https://image.gatedataimg.com/AVAX.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=7cCQiGbU%2B8sGFBojdioCPVAdqSU%3D&Expires=1691294270",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/avalanche-avax",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/AVAX_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/AVAX_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/avalanche-avax"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/avalanche-avax"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/avalanche-avax"
+          }
+        ]
+      },
+      {
+        "symbol": "trx",
+        "name": "TRON",
+        "name_en": "TRON",
+        "name_cn": "波场",
+        "pair": "trx_usdt",
+        "rate": "0.0652009",
+        "rate_fiat": "$0.0652009",
+        "trend": "up",
+        "rate_percent": "0.20%",
+        "curr_a": "trx",
+        "curr_b": "usdt",
+        "marketcap": "5,925,120,000",
+        "marketcap_format": "5.9B",
+        "marketcap_fiat": "$5.9B",
+        "high": "0.0656864",
+        "low": "0.0647218",
+        "high_fiat": "$0.0656864",
+        "low_fiat": "$0.0647218",
+        "gate_trade": "1",
+        "volume": "352262000",
+        "volume_format": "352.3M",
+        "volume_fiat": "$352.3M",
+        "icon_url": "https://image.gatedataimg.com/TRX.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=rV2DkFNsUCUbo5cSx79oVEa8Hik%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/tron-trx",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/TRX_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/TRX_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/tron-trx"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/tron-trx"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/tron-trx"
+          }
+        ]
+      },
+      {
+        "symbol": "dai",
+        "name": "Dai",
+        "name_en": "Dai",
+        "name_cn": "Dai",
+        "pair": "dai_usdt",
+        "rate": "1.00054",
+        "rate_fiat": "$1.00054",
+        "trend": "down",
+        "rate_percent": "-0.10%",
+        "curr_a": "dai",
+        "curr_b": "usdt",
+        "marketcap": "5,013,700,000",
+        "marketcap_format": "5.0B",
+        "marketcap_fiat": "$5.0B",
+        "high": "1",
+        "low": "0.998178",
+        "high_fiat": "$1",
+        "low_fiat": "$0.998178",
+        "gate_trade": "1",
+        "volume": "179284000",
+        "volume_format": "179.3M",
+        "volume_fiat": "$179.3M",
+        "icon_url": "https://image.gatedataimg.com/DAI.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=OmpU%2BEq2OUYomUA2AV7VzLavA3Y%3D&Expires=1691294275",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/dai-dai",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/DAI_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/dai-dai"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/dai-dai"
+          }
+        ]
+      },
+      {
+        "symbol": "uni",
+        "name": "Uniswap",
+        "name_en": "Uniswap",
+        "name_cn": "Uniswap",
+        "pair": "uni_usdt",
+        "rate": "6.20006",
+        "rate_fiat": "$6.20006",
+        "trend": "up",
+        "rate_percent": "4.20%",
+        "curr_a": "uni",
+        "curr_b": "usdt",
+        "marketcap": "4,671,960,000",
+        "marketcap_format": "4.7B",
+        "marketcap_fiat": "$4.7B",
+        "high": "6.25",
+        "low": "5.91",
+        "high_fiat": "$6.25",
+        "low_fiat": "$5.91",
+        "gate_trade": "1",
+        "volume": "93129600",
+        "volume_format": "93.1M",
+        "volume_fiat": "$93.1M",
+        "icon_url": "https://image.gatedataimg.com/UNI.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=LCml7Ljoil4WNTCyJQ1KFZ7LFf4%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/uniswap-uni",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/UNI_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/UNI_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/uniswap-uni"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/uniswap-uni"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/uniswap-uni"
+          }
+        ]
+      },
+      {
+        "symbol": "link",
+        "name": "Chainlink",
+        "name_en": "Chainlink",
+        "name_cn": "Chainlink",
+        "pair": "link_usdt",
+        "rate": "7.45853",
+        "rate_fiat": "$7.45853",
+        "trend": "up",
+        "rate_percent": "3.00%",
+        "curr_a": "link",
+        "curr_b": "usdt",
+        "marketcap": "3,857,510,000",
+        "marketcap_format": "3.9B",
+        "marketcap_fiat": "$3.9B",
+        "high": "7.51",
+        "low": "7.19",
+        "high_fiat": "$7.51",
+        "low_fiat": "$7.19",
+        "gate_trade": "1",
+        "volume": "241033000",
+        "volume_format": "241.0M",
+        "volume_fiat": "$241.0M",
+        "icon_url": "https://image.gatedataimg.com/LINK.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=U9TmNWXKurRpRjOdEiaSkfrOhoA%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/chainlink-link",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/LINK_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/LINK_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/chainlink-link"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/chainlink-link"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/chainlink-link"
+          }
+        ]
+      },
+      {
+        "symbol": "atom",
+        "name": "Cosmos Hub",
+        "name_en": "Cosmos Hub",
+        "name_cn": "Cosmos Hub",
+        "pair": "atom_usdt",
+        "rate": "11.7962",
+        "rate_fiat": "$11.7962",
+        "trend": "up",
+        "rate_percent": "4.30%",
+        "curr_a": "atom",
+        "curr_b": "usdt",
+        "marketcap": "3,451,510,000",
+        "marketcap_format": "3.5B",
+        "marketcap_fiat": "$3.5B",
+        "high": "11.99",
+        "low": "11.25",
+        "high_fiat": "$11.99",
+        "low_fiat": "$11.25",
+        "gate_trade": "1",
+        "volume": "163455000",
+        "volume_format": "163.5M",
+        "volume_fiat": "$163.5M",
+        "icon_url": "https://image.gatedataimg.com/ATOM.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=91u8T0vuFaEE703k5QilS92yoXI%3D&Expires=1691294269",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/cosmos-hub-atom",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/ATOM_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/ATOM_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/cosmos-hub-atom"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/cosmos-hub-atom"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/cosmos-hub-atom"
+          }
+        ]
+      },
+      {
+        "symbol": "ton",
+        "name": "Toncoin",
+        "name_en": "Toncoin",
+        "name_cn": "Toncoin",
+        "pair": "ton_usdt",
+        "rate": "2.26336",
+        "rate_fiat": "$2.26336",
+        "trend": "up",
+        "rate_percent": "3.00%",
+        "curr_a": "ton",
+        "curr_b": "usdt",
+        "marketcap": "3,329,880,000",
+        "marketcap_format": "3.3B",
+        "marketcap_fiat": "$3.3B",
+        "high": "2.25",
+        "low": "2.18",
+        "high_fiat": "$2.25",
+        "low_fiat": "$2.18",
+        "gate_trade": "1",
+        "volume": "30100000",
+        "volume_format": "30.1M",
+        "volume_fiat": "$30.1M",
+        "icon_url": "https://image.gatedataimg.com/picture_90362.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=Wb1KB6iVoBG49xCM0J3EuexTRVo%3D&Expires=1701620113",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/toncoin-ton",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/TON_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/TON_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/toncoin-ton"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/toncoin-ton"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/toncoin-ton"
+          }
+        ]
+      },
+      {
+        "symbol": "leo",
+        "name": "LEO Token",
+        "name_en": "LEO Token",
+        "name_cn": "LEO Token",
+        "pair": "leo_usdt",
+        "rate": "3.38989",
+        "rate_fiat": "$3.38989",
+        "trend": "down",
+        "rate_percent": "-0.20%",
+        "curr_a": "leo",
+        "curr_b": "usdt",
+        "marketcap": "3,155,580,000",
+        "marketcap_format": "3.2B",
+        "marketcap_fiat": "$3.2B",
+        "high": "3.43",
+        "low": "3.33",
+        "high_fiat": "$3.43",
+        "low_fiat": "$3.33",
+        "gate_trade": "1",
+        "volume": "368056",
+        "volume_format": "368.1K",
+        "volume_fiat": "$368.1K",
+        "icon_url": "https://image.gatedataimg.com/LEO.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=ByGozReh0j1t%2FSadDekDwAIbg0k%3D&Expires=1691294280",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/leo-token-leo",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/LEO_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/leo-token-leo"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/leo-token-leo"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/leo-token-leo"
+          }
+        ]
+      },
+      {
+        "symbol": "etc",
+        "name": "Ethereum Classic",
+        "name_en": "Ethereum Classic",
+        "name_cn": "以太经典",
+        "pair": "etc_usdt",
+        "rate": "22.3923",
+        "rate_fiat": "$22.3923",
+        "trend": "up",
+        "rate_percent": "0.80%",
+        "curr_a": "etc",
+        "curr_b": "usdt",
+        "marketcap": "3,145,760,000",
+        "marketcap_format": "3.1B",
+        "marketcap_fiat": "$3.1B",
+        "high": "22.79",
+        "low": "21.64",
+        "high_fiat": "$22.79",
+        "low_fiat": "$21.64",
+        "gate_trade": "1",
+        "volume": "218322000",
+        "volume_format": "218.3M",
+        "volume_fiat": "$218.3M",
+        "icon_url": "https://image.gatedataimg.com/ETC.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=KtyX%2BNVPQxr7k1Vi2Q811hfmuDM%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/ethereum-classic-etc",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/ETC_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/ETC_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/ethereum-classic-etc"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/ethereum-classic-etc"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/ethereum-classic-etc"
+          }
+        ]
+      },
+      {
+        "symbol": "xmr",
+        "name": "Monero",
+        "name_en": "Monero",
+        "name_cn": "门罗币",
+        "pair": "xmr_usdt",
+        "rate": "162.063",
+        "rate_fiat": "$162.063",
+        "trend": "down",
+        "rate_percent": "-0.30%",
+        "curr_a": "xmr",
+        "curr_b": "usdt",
+        "marketcap": "2,941,360,000",
+        "marketcap_format": "2.9B",
+        "marketcap_fiat": "$2.9B",
+        "high": "163.84",
+        "low": "161.67",
+        "high_fiat": "$163.84",
+        "low_fiat": "$161.67",
+        "gate_trade": "1",
+        "volume": "90333800",
+        "volume_format": "90.3M",
+        "volume_fiat": "$90.3M",
+        "icon_url": "https://image.gatedataimg.com/XMR.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=ysI5elXR2IItTbS53xUGbdFA00s%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/monero-xmr",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/XMR_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/XMR_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/monero-xmr"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/monero-xmr"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/monero-xmr"
+          }
+        ]
+      },
+      {
+        "symbol": "xlm",
+        "name": "Stellar",
+        "name_en": "Stellar",
+        "name_cn": "恒星币",
+        "pair": "xlm_usdt",
+        "rate": "0.105172",
+        "rate_fiat": "$0.105172",
+        "trend": "up",
+        "rate_percent": "1.40%",
+        "curr_a": "xlm",
+        "curr_b": "usdt",
+        "marketcap": "2,812,370,000",
+        "marketcap_format": "2.8B",
+        "marketcap_fiat": "$2.8B",
+        "high": "0.105825",
+        "low": "0.10314",
+        "high_fiat": "$0.105825",
+        "low_fiat": "$0.10314",
+        "gate_trade": "1",
+        "volume": "56787800",
+        "volume_format": "56.8M",
+        "volume_fiat": "$56.8M",
+        "icon_url": "https://image.gatedataimg.com/XLM.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=%2FUVyG6CRGuU59sSNWEPBbQjx3Cs%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/stellar-xlm",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/XLM_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/XLM_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/stellar-xlm"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/stellar-xlm"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/stellar-xlm"
+          }
+        ]
+      },
+      {
+        "symbol": "okb",
+        "name": "OKB",
+        "name_en": "OKB",
+        "name_cn": "OK币",
+        "pair": "okb_usdt",
+        "rate": "43.3028",
+        "rate_fiat": "$43.3028",
+        "trend": "up",
+        "rate_percent": "3.10%",
+        "curr_a": "okb",
+        "curr_b": "usdt",
+        "marketcap": "2,600,930,000",
+        "marketcap_format": "2.6B",
+        "marketcap_fiat": "$2.6B",
+        "high": "43.57",
+        "low": "41.86",
+        "high_fiat": "$43.57",
+        "low_fiat": "$41.86",
+        "gate_trade": "1",
+        "volume": "12318500",
+        "volume_format": "12.3M",
+        "volume_fiat": "$12.3M",
+        "icon_url": "https://image.gatedataimg.com/OKB.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=3U2BQyCDPlicvEWWWbHI21iXWCw%3D&Expires=1691294270",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/okb-okb",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/OKB_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/OKB_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/okb-okb"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/okb-okb"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/okb-okb"
+          }
+        ]
+      },
+      {
+        "symbol": "bch",
+        "name": "Bitcoin Cash",
+        "name_en": "Bitcoin Cash",
+        "name_cn": "比特现金",
+        "pair": "bch_usdt",
+        "rate": "130.98",
+        "rate_fiat": "$130.98",
+        "trend": "up",
+        "rate_percent": "1.30%",
+        "curr_a": "bch",
+        "curr_b": "usdt",
+        "marketcap": "2,535,890,000",
+        "marketcap_format": "2.5B",
+        "marketcap_fiat": "$2.5B",
+        "high": "131.72",
+        "low": "128.18",
+        "high_fiat": "$131.72",
+        "low_fiat": "$128.18",
+        "gate_trade": "1",
+        "volume": "82196100",
+        "volume_format": "82.2M",
+        "volume_fiat": "$82.2M",
+        "icon_url": "https://image.gatedataimg.com/BCH.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=LlyrKqIkD3LSOZN9dnelNtq2AYM%3D&Expires=1691294267",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/bitcoin-cash-bch",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/BCH_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/BCH_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/bitcoin-cash-bch"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/bitcoin-cash-bch"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/bitcoin-cash-bch"
+          }
+        ]
+      },
+      {
+        "symbol": "fil",
+        "name": "Filecoin",
+        "name_en": "Filecoin",
+        "name_cn": "Filecoin",
+        "pair": "fil_usdt",
+        "rate": "6.07831",
+        "rate_fiat": "$6.07831",
+        "trend": "up",
+        "rate_percent": "1.70%",
+        "curr_a": "fil",
+        "curr_b": "usdt",
+        "marketcap": "2,519,940,000",
+        "marketcap_format": "2.5B",
+        "marketcap_fiat": "$2.5B",
+        "high": "6.12",
+        "low": "5.91",
+        "high_fiat": "$6.12",
+        "low_fiat": "$5.91",
+        "gate_trade": "1",
+        "volume": "170524000",
+        "volume_format": "170.5M",
+        "volume_fiat": "$170.5M",
+        "icon_url": "https://image.gatedataimg.com/FIL.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=DgNvTxvA1UVK%2Bgoalt6xGqT%2Bz%2Fs%3D&Expires=1691294268",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/filecoin-fil",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/FIL_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/FIL_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/filecoin-fil"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/filecoin-fil"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/filecoin-fil"
+          }
+        ]
+      },
+      {
+        "symbol": "apt",
+        "name": "Aptos",
+        "name_en": "Aptos",
+        "name_cn": "Aptos",
+        "pair": "apt_usdt",
+        "rate": "12.3653",
+        "rate_fiat": "$12.3653",
+        "trend": "up",
+        "rate_percent": "8.60%",
+        "curr_a": "apt",
+        "curr_b": "usdt",
+        "marketcap": "2,307,180,000",
+        "marketcap_format": "2.3B",
+        "marketcap_fiat": "$2.3B",
+        "high": "12.49",
+        "low": "11.28",
+        "high_fiat": "$12.49",
+        "low_fiat": "$11.28",
+        "gate_trade": "1",
+        "volume": "209463000",
+        "volume_format": "209.5M",
+        "volume_fiat": "$209.5M",
+        "icon_url": "https://image.gatedataimg.com/picture_80715.png?AWSAccessKeyId=AKIASRVUDYVMTRKUTJFJ&Signature=H1V1bEGMYrJvhSfA1EcHdB%2FHpks%3D&Expires=1695658829",
+        "is_favorites": 0,
+        "holding_cost": "0.000000",
+        "detail_url": "/price/aptos-apt",
+        "trade_market": [
+          {
+            "key": "spot",
+            "link": "/trade/APT_USDT"
+          },
+          {
+            "key": "futures",
+            "link": "/futures/USDT/APT_USDT"
+          }
+        ],
+        "details": [
+          {
+            "key": "price",
+            "link": "/price/aptos-apt"
+          },
+          {
+            "key": "how-to-buy",
+            "link": "/how-to-buy/aptos-apt"
+          },
+          {
+            "key": "price-prediction",
+            "link": "/price-prediction/aptos-apt"
+          }
+        ]
+      }
+    ]
+  }
+}

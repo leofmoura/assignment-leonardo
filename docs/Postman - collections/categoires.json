@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "code": "200",
+  "msg": "success",
+  "retry": false,
+  "data": [
+    {
+      "tagId": "6225ad8d491ffe87c4e42489",
+      "title": "Trending",
+      "pointId": "HotSearchList"
+    },
+    {
+      "tagId": "6225ad8d491ffe87c4e4248a",
+      "title": "Gainers",
+      "pointId": "IncreseList"
+    },
+    {
+      "tagId": "6225ad8d491ffe87c4e4248b",
+      "title": "Losers",
+      "pointId": "DecreseList"
+    },
+    {
+      "tagId": "6225ad8d491ffe87c4e42490",
+      "title": "Volume",
+      "pointId": "VolumeList"
+    },
+    {
+      "tagId": "6225ad8d491ffe87c4e42491",
+      "title": "New",
+      "pointId": "NewList"
+    },
+    {
+      "tagId": "6225ad8d491ffe87c4e42486",
+      "title": "Hot List",
+      "pointId": "HotList"
+    }
+  ]
+}
