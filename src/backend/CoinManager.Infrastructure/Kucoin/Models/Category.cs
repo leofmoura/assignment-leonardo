@@ -7,7 +7,7 @@ namespace CoinManager.Infrastructure.Kucoin.Models
     {
         public string TagId { get; set; }
         public string Title { get; set; }
-        
+
         public CoinManager.Core.Models.Category ToDomainModel()
         {
             return new DomainCategory(TagId, Title);

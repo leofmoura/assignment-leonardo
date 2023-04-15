@@ -4,7 +4,7 @@ namespace CoinManager.Core.Models
 {
     public class Coin
     {
-        public Coin(string symbolCode, string alternateSymbolCode, string? symbolDisplay, string name, decimal price, decimal priceChange, decimal priceDiff, string? urlImage)
+        public Coin(string symbolCode, string alternateSymbolCode, string? symbolDisplay, string name, decimal price, decimal priceChange, decimal priceDiff, string? urlImage, decimal marketCap)
         {
             SymbolCode = symbolCode ?? throw new ArgumentNullException(nameof(symbolCode));
             AlternateSymbolCode = alternateSymbolCode ?? throw new ArgumentNullException(nameof(alternateSymbolCode));
@@ -14,6 +14,7 @@ namespace CoinManager.Core.Models
             PriceChange = priceChange;
             PriceDiff = priceDiff;
             UrlImage = urlImage;
+            MarketCap = marketCap;
         }
 
         public string SymbolCode { get; set; }
@@ -24,6 +25,7 @@ namespace CoinManager.Core.Models
         public decimal Price { get; set; }
         public decimal PriceChange { get; set; }
         public decimal PriceDiff { get; set; }
+        public decimal MarketCap { get; set; }
         
     }
 }

@@ -30,6 +30,8 @@ Coin information: GET <https://www.kucoin.com/_api/discover-front/spl?lang=en_US
 
 Individual coin information: <https://www.kucoin.com/_api/quicksilver/universe-currency/symbols/stats/BNB-USDT?lang=en_US>
 
+https://www.kucoin.com/_api/quicksilver/universe-currency/symbols/stats/BNB-USDT?lang=en_US
+https://www.kucoin.com/_api/discover-front/spl/quicksilver/universe-currency/symbols/stats/BNB-USDT?lang=en_US
 Secondary (Gate.io)
 
 List of coins: POST <https://www.gate.io/market_price/get_coin_list>

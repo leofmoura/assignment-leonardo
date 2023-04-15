@@ -55,6 +55,6 @@ public class CoinServiceTests
     private Coin GetBTCCoinTest()
     {
         return new Coin("BTC-USDT", "BTC", "BTC", "BitCoin", (decimal)20032.99,
-            (decimal)29.99, (decimal)292.00, "");
+            (decimal)29.99, (decimal)292.00, "", Decimal.Zero);
     }
 }

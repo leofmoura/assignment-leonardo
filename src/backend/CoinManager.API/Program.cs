@@ -3,6 +3,7 @@ using CoinManager.Application.Categories;
 using CoinManager.Application.Providers;
 using CoinManager.Infrastructure.Gateio;
 using CoinManager.Infrastructure.Kucoin;
+using Microsoft.AspNetCore.Cors;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,17 @@ builder.Services.AddScoped<ICoinService, CoinService>();
 builder.Services.AddScoped<IPrimaryCoinProvider, KucoinAPIProvider>();
 builder.Services.AddScoped<ISecondaryCoinProvider, GateioAPIProvider>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PolicyCors",
+        policy =>
+        {
+            // TODO: This should come from config
+            // Should not go to prod, of course.
+            policy.AllowAnyOrigin().AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,6 +38,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("PolicyCors");
 
 app.MapGet("/categories", async (ICategoryService categoryService) => await categoryService.GetCategories())
     .WithName("GetCategories")
